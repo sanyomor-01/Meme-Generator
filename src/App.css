@@ -38,45 +38,28 @@ header{
   font-size: 1.25rem;
   font-weight: bold;
 }
-main{
-  padding: 36px;
-  display: block;
-  gap: 16px;
-}
-.form{
- display: grid;
- grid-template: 40px 40px / 1fr 1fr;
- gap: 16px;
+
+.form {
+  display: grid;
+  grid-template: 40px 40px / 1fr 1fr;
+  gap: 17px;
 }
 
-
-
-input{
-  width: 230px;
-  height: 35px;
-  border: 2px solid #D5D4D8;
+.form--input {
+  font-family: "Karla", sans-serif;
   border-radius: 5px;
-  font-size: 0.75rem;
-  outline: none;
-  text-indent: 10px;
-  font-family: 'Karla', sans-serif;
-  color: gray;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
 }
-.btn{
+
+.form--button {
   grid-column: 1 / -1;
-  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
-  width: 100%;
+  font-family: "Karla", sans-serif;
   border-radius: 5px;
-  margin-top: 1rem;
-  font-family: 'Karla', sans-serif;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
   color: white;
-  font-weight: bold;
-  font-size: 1.25rem;
-  outline: none;
   border: none;
-  height: 40px;
   cursor: pointer;
-
 }
 
 .meme--image {
