@@ -7,8 +7,8 @@
 }
 
 .App{
-  width: 550px;
-  height: 550px;
+  width: 600px;
+  
   margin: 0 auto;
   background-color: #f2f4f6;
 }
@@ -21,6 +21,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 0 36px;
+  margin-bottom: 17px;
 }
 .projext--title{
   font-size: 0.75rem;
@@ -43,6 +44,7 @@ header{
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
+  margin-bottom: 17px;
 }
 
 .form--input {
@@ -64,4 +66,13 @@ header{
 
 .meme--image {
   max-width: 100%;
+  border-radius:5px ;
+  margin-bottom: 10px;
+}
+main{
+  margin-left: 16px;
+  margin-right: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
