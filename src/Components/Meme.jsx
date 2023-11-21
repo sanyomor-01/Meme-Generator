@@ -6,7 +6,7 @@ export default function Meme() {
     const [meme, setMeme] = React.useState({
         topText    : "",
         bottomText : "",
-        randomImage : "http://i.imgflip.com/1bij.jpg"
+        randomImage : "https://i.imgflip.com/1g8my4.jpg"
     })
 
     const [allMemeImage, setAllMemeImage] = React.useState(memesData)
@@ -42,7 +42,7 @@ export default function Meme() {
                     Get a new meme image 🖼
                 </button>
             </div>
-            <img src={meme} className="meme--image" />
+            <img src={meme.randomImage} className="meme--image" />
         </main>
     )
 }
