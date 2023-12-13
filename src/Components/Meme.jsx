@@ -24,24 +24,30 @@ export default function Meme() {
     
     return (
         <main>
-            <div className="form">
-                <input 
-                    type="text"
-                    placeholder="Top text"
-                    className="form--input"
-                />
-                <input 
-                    type="text"
-                    placeholder="Bottom text"
-                    className="form--input"
-                />
-                <button 
+            <form>
+                <div>
+                    <label className="form--label">Top text</label>
+
+                    <input 
+                        type="text"
+                        placeholder="Top text"
+                        className="form--input"
+                    />
+                </div>
+                <div>
+                    <label className="form--label">Top text</label>
+                    <input 
+                        type="text"
+                        placeholder="Bottom text"
+                        className="form--input"
+                    />
+                </div>
+                <button
                     className="form--button"
-                    onClick={getMemeImage}
                 >
                     Get a new meme image 🖼
                 </button>
-            </div>
+            </form>
             <img src={meme.randomImage} className="meme--image" />
         </main>
     )

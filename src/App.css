@@ -7,7 +7,7 @@
 }
 
 .App{
-  width: 600px;
+  width: 1000px;
   
   margin: 0 auto;
   background-color: #f2f4f6;
@@ -40,7 +40,7 @@ header{
   font-weight: bold;
 }
 
-.form {
+form {
   display: grid;
   grid-template: 40px 40px / 1fr 1fr;
   gap: 17px;
@@ -52,6 +52,8 @@ header{
   border-radius: 5px;
   border: 1px solid #D5D4D8;
   text-indent: 5px;
+  height: 35px;
+  width: 100%;
 }
 
 .form--button {
@@ -64,15 +66,16 @@ header{
   cursor: pointer;
 }
 
+
+
 .meme--image {
   max-width: 100%;
   border-radius:5px ;
   margin-bottom: 10px;
 }
 main{
+  padding: 36px;
   margin-left: 16px;
   margin-right: 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  display: block;
 }
